@@ -1,0 +1,30 @@
+{
+  "name": "user-api-dynamodb-typescript",
+  "version": "1.0.0",
+  "description": "Sample user api implemented with express & typescript, saved to AWS DynamoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint --fix src/",
+    "build": "tsc",
+    "start": "node dist/server.ts"
+  },
+  "repository": {
+    "git": "https://github.com/gyukebox/user-api-dynamodb-typescript"
+  },
+  "author": "gyukebox",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.186.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/node": "^9.3.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  }
+}
